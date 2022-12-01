@@ -169,7 +169,7 @@ public class RoomNodeSO : ScriptableObject
         GUI.changed = true;
     }
 
-    private void DragNode(Vector2 delta)
+    public void DragNode(Vector2 delta)
     {
         Rectangle.position += delta;
         EditorUtility.SetDirty(this);

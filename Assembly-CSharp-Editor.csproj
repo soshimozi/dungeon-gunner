@@ -57,7 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/NodeGraph/Editor/RoomNodeGraphEditor.cs" />
-    <Compile Include="Assets/CourseAssets/Tilemap/CustomBrushScripts/CoordinateBrush/Editor/CoordinateBrush.cs" />
+    <Compile Include="Assets/CustomBrushScripts/CoordinateBrush/Editor/CoordinateBrush.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
